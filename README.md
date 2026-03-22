@@ -1,35 +1,53 @@
-Emoji Rock-Paper-Scissors ✊ ✋ ✌️
+Rock Paper Scissors Lizard Spock ✊ ✋ ✌️ 🦎 🖖
 
-A visually engaging, console-based Rock-Paper-Scissors game. This version uses Colorama to highlight game outcomes and Emojis to provide a modern user experience.
-✨ Key Features
+A Python-based expansion of the classic Rock Paper Scissors game. This version adds two new variables—Lizard and Spock—increasing the number of possible outcomes and making the strategy more interesting.
+📜 The Rules
 
-  Visual Feedback: Uses Fore.GREEN for wins, Fore.RED for losses, and Fore.MAGENTA for ties.
+The game follows the expanded ruleset to ensure every choice has two strengths and two weaknesses:
 
-  Emoji Interface: Clear visual representation of Rock, Paper, and Scissors.
+Winner	Action	Loser
+Scissors	✌️ cuts	✋ Paper
+Paper	✋ covers	✊ Rock
+Rock	✊ crushes	🦎 Lizard
+Lizard	🦎 poisons	🖖 Spock
+Spock	🖖 smashes	✌️ Scissors
+Scissors	✌️ decapitates	🦎 Lizard
+Lizard	🦎 eats	✋ Paper
+Paper	✋ disproves	🖖 Spock
+Spock	🖖 vaporizes	✊ Rock
+Rock	✊ crushes	✌️ Scissors
 
-  Smart Logic: A robust conditional system to determine the winner between the Player and the CPU.
+✨ Features
 
-  Error Handling: Includes a "Beyond Limit" check for invalid inputs.
+    Extended Logic: A more complex conditional system to handle 25 different outcome combinations.
 
-🛠️ How It Works
+    Terminal Colors: Powered by colorama for clear visual win/loss/tie feedback.
 
-The script assigns numerical values to each move:
+    Emoji Integration: Uses ✊, ✋, ✌️, 🦎, and 🖖 for a better UI experience.
 
-  1 = Rock ✊
+    Randomized AI: A computer opponent that selects moves unpredictably.
 
-  2 = Paper ✋
+🛠️ Installation & Usage
 
-  3 = Scissors ✌️
+    Clone the repo:
+    Bash
 
-The CPU generates a random integer between 1 and 3 using the random module, and the winner is decided based on standard game rules.
-🚀 Setup
+    git clone https://github.com/your-username/your-repo-name.git
 
-  Install the required dependency:
+    Install dependencies:
     Bash
 
     pip install colorama
 
-  Run the game:
+    Run the game:
     Bash
 
-    python3 rock_paper_scissor.py
+    python main.py
+
+💻 Technologies Used
+
+    Python 3.x
+
+    Colorama Library (for terminal styling)
+
+    Random Module (for CPU move generation)
