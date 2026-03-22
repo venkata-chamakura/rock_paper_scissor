@@ -5,17 +5,25 @@ A Python-based expansion of the classic Rock Paper Scissors game. This version a
 
 The game follows the expanded ruleset to ensure every choice has two strengths and two weaknesses:
 
-Winner	Action	Loser
-Scissors	✌️ cuts	✋ Paper
-Paper	✋ covers	✊ Rock
-Rock	✊ crushes	🦎 Lizard
-Lizard	🦎 poisons	🖖 Spock
-Spock	🖖 smashes	✌️ Scissors
-Scissors	✌️ decapitates	🦎 Lizard
-Lizard	🦎 eats	✋ Paper
-Paper	✋ disproves	🖖 Spock
-Spock	🖖 vaporizes	✊ Rock
-Rock	✊ crushes	✌️ Scissors
+    Scissors cuts Paper
+
+    Paper covers Rock
+
+    Rock crushes Lizard
+
+    Lizard poisons Spock
+
+    Spock smashes Scissors
+
+    Scissors beats Lizard
+
+    Lizard eats Paper
+
+    Paper disproves Spock
+
+    Spock vaporizes Rock
+
+    Rock breaks Scissors
 
 ✨ Features
 
