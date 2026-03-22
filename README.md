@@ -50,7 +50,7 @@ The game follows the expanded ruleset to ensure every choice has two strengths a
     Run the game:
     Bash
 
-    python main.py
+    python3 rock_paper_scissors.py
 
 💻 Technologies Used
 
